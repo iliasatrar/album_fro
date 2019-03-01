@@ -1,0 +1,42 @@
+
+.cover{
+  width: 350px;
+  float: left;
+  margin: 1em;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto;;
+}
+
+
+.cover article{
+  position: relative;
+  background-color: rgba(255,255,255,0.5);
+  height: 350px;
+  font-size: .8em;
+  padding: 1em;
+  transition: margin-top 2s;
+}
+
+.cover:hover article{
+  margin-top: -350px;
+}
+
+html, body, div, article, p, h3, h4{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: sans-serif;
+}
+
+
+#validatie{
+    text-align: center;
+}
